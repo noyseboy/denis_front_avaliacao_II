@@ -1,0 +1,133 @@
+/* ===== Reset básico ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Cor de fundo da página ===== */
+body {
+    background-color: #f4f6f8;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    padding: 20px;
+}
+
+/* ===== Cabeçalho ===== */
+.cabecalho {
+    background-color: #1e3a5f;          /* fundo azul escuro */
+    color: #ffffff;
+    padding: 30px 20px;                  /* espaçamento interno */
+    text-align: center;                  /* centraliza o título principal */
+    border-radius: 8px 8px 0 0;
+}
+
+.cabecalho h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.cabecalho p {
+    font-size: 14px;
+    color: #d0dbe8;
+}
+
+/* ===== Menu ===== */
+.menu {
+    background-color: #d9e2ec;           /* fundo cinza-azulado claro */
+    padding: 12px 20px;                  /* espaçamento interno */
+    text-align: center;
+    border-left: 1px solid #c5d2e0;
+    border-right: 1px solid #c5d2e0;
+}
+
+.menu a {
+    color: #1e3a5f;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+.menu a:hover {
+    color: #2e6da4;
+    text-decoration: underline;
+}
+
+.menu .separador {
+    color: #8fa3b8;
+    margin: 0 4px;
+}
+
+/* ===== Conteúdo principal ===== */
+.conteudo-principal {
+    background-color: #eef3f8;
+    padding: 25px 30px;
+    border-left: 1px solid #c5d2e0;
+    border-right: 1px solid #c5d2e0;
+}
+
+/* Seção de boas-vindas */
+.secao-boas-vindas {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.secao-boas-vindas h2 {
+    font-size: 20px;
+    color: #1e3a5f;
+    margin-bottom: 8px;
+}
+
+.secao-boas-vindas p {
+    font-size: 14px;
+    color: #556677;
+}
+
+/* ===== Blocos de cursos ===== */
+.bloco-curso {
+    background-color: #ffffff;
+    border: 1px solid #c5d2e0;           /* borda */
+    border-radius: 6px;                   /* cantos arredondados */
+    padding: 18px 20px;                   /* espaçamento interno */
+    margin-bottom: 15px;                  /* separa os blocos */
+}
+
+.bloco-curso h3 {
+    font-size: 16px;
+    color: #1e3a5f;
+    margin-bottom: 6px;
+}
+
+.bloco-curso p {
+    font-size: 13px;
+    color: #667788;
+}
+
+/* ===== Seção de contato ===== */
+.secao-contato {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.secao-contato h2 {
+    font-size: 18px;
+    color: #1e3a5f;
+    margin-bottom: 6px;
+}
+
+.secao-contato p {
+    font-size: 14px;
+    color: #556677;
+}
+
+/* ===== Rodapé ===== */
+.rodape {
+    background-color: #1e3a5f;           /* fundo azul escuro */
+    color: #ffffff;
+    padding: 18px 20px;                  /* espaçamento interno */
+    text-align: center;
+    font-size: 13px;
+    border-radius: 0 0 8px 8px;
+}
